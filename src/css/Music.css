@@ -1,0 +1,48 @@
+.btn {
+    margin-bottom: 2em;
+    padding: 1em 7em;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-music{
+    margin-top: 2em;
+    color: white;
+    background-color: violet;
+}
+
+.btn-announcements{
+    padding: 1em;
+    width: 50px;
+    border-radius: 360px;
+    background-color: thistle;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn-announcements:hover{
+    background-color: white;
+    color: thistle;
+}
+
+.refresh-btn{
+    margin-top: 2em;
+    cursor: pointer;
+    color: white;
+}
+
+.refresh-btn:hover{
+    transform: rotate(360deg);
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.quote-btn{
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
