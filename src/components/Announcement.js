@@ -17,7 +17,11 @@ class Announcements extends Component{
 
     feat(){
         alert(
-            "Hello! It's nice to meet you! I'm Yazzle! I'll be updated from time to time and all you need to do is click this little button to see what's new about me!"
+            "Hello, it's nice to meet you! I'm Yazzle!"
+        )
+
+        alert(
+            "I'll be updated from time to time and all you need to do is click this little button to see what's new about me!"
         )
 
         alert(
@@ -39,8 +43,6 @@ class Announcements extends Component{
         alert(
             "Date: " + [announcment[0].date] + "\r\n" +
             "Features: " + "•" + [announcment[0].features] + "\r\n" 
-
-
         )
     }
 
