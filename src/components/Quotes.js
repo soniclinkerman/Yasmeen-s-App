@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../css/Quotes.css";
 import "../css/Music.css";
-
-const quotes = ["Who you are, what you think, feel, and do, what you love—is the sum of what you focus on ~Gallagher", ]
+// "Who you are, what you think, feel, and do, what you love—is the sum of what you focus on ~Gallagher",
+const quotes = [ "Life is too short, so don't spend it living someone else's life ~ Steve Jobs"]
 
 var x = Math.floor(Math.random() * quotes.length);
 var y = quotes[x];
